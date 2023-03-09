@@ -1,8 +1,8 @@
 package accounts;
 
 public class Account {
-    public long balance;
-    public String name;
+    protected long balance;
+    protected String name;
 
     protected Account(long balance, String name) {
         this.balance = balance;
